@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/index.css" />
+</head>
+
+<body>
+  <!-- top page elements -->
+  <header>
+    <h1>Kaleb V.</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <section>
+      <span id="datebox"></span>
+    </section>
+  </header>
+  <section>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://picsum.photos/1000/500?random=1">
+        <div class="text">Future</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://picsum.photos/1000/500?random=2">
+        <div class="text">Projects</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://picsum.photos/1000/500?random=3">
+        <div class="text">Here</div>
+      </div>
+      
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+  <article  class="article-section">
+    <div class="article1">
+    <h3>What My Goals Are</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam necessitatibus distinctio
+      asperiores sapiente consequatur, hic repellat consequuntur doloremque nam impedit molestiae nemo voluptates fuga,
+      in laborum atque porro sit odit?</p>
+    </div>
+    <div class="article2">
+    <h3>Site Plans</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vitae obcaecati, beatae ipsam tenetur, commodi vero, hic ea ullam facere fugit cumque consequatur optio laborum voluptatibus expedita recusandae fuga dolorum.</p>
+    </div>
+  </article>
+  <footer>
+    <a class="closing" href="https://www.linkedin.com/in/kaleb-van-heusen-b16836210/" target="_blank">Contact Me</a>
+  </footer>
+</body>
+  <script src="./date.js"></script>
+  <script src="./slideshow.js"></script>
+</html>
